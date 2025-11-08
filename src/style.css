@@ -1,5 +1,40 @@
 @import "bootstrap/dist/css/bootstrap.min.css";
 
-body{
-    background: white;
+body {
+  background-color: green;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.card {
+  background: white;
+  width: 200px;
+  height: 300px;
+  border-radius: 12px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 60px;
+  padding: 20px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+  color: black;
+}
+
+.top-suit {
+  align-self: flex-start;
+  font-size: 40px;
+}
+
+.number {
+  font-size: 90px;
+}
+
+.bottom-suit {
+  align-self: flex-end;
+  font-size: 40px;
+  transform: rotate(180deg);
 }
